@@ -107,7 +107,7 @@ Message: ${form.message || "N/A"}
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/src/assets/instagram.png"
+                  src="/images/instagram.png"
                   alt="Instagram"
                   className="w-6 h-6 hover:scale-110 transition"
                 />
@@ -119,7 +119,7 @@ Message: ${form.message || "N/A"}
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/src/assets/facebook.png"
+                  src="/images/facebook.png"
                   alt="Facebook"
                   className="w-6 h-6 hover:scale-110 transition"
                 />
@@ -131,7 +131,7 @@ Message: ${form.message || "N/A"}
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/src/assets/youtube.png"
+                  src="/images/youtube.png"
                   alt="Youtube"
                   className="w-6 h-6 hover:scale-110 transition"
                 />

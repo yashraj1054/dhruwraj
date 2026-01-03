@@ -1,58 +1,3 @@
-// export default function Reviews() {
-//   return (
-//     <section className="bg-[#f6fbfb] py-12 sm:py-16 md:py-20">
-//       <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-
-//         {/* Heading */}
-//         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-10">
-//           What Our Patients Say
-//         </h2>
-
-//         {/* Reviews */}
-//         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          
-//           {/* Review 1 */}
-//           <div className="bg-white p-5 sm:p-6 rounded-xl shadow text-left">
-//             <div className="text-yellow-500 mb-2">⭐⭐⭐⭐⭐</div>
-//             <p className="text-gray-700 text-sm sm:text-base">
-//               I was suffering from joint pain for years. After taking
-//               Ayurvedic treatment here, I feel much better and active.
-//             </p>
-//             <p className="mt-4 font-semibold text-sm text-gray-800">
-//               — Rajesh Verma, Kanpur
-//             </p>
-//           </div>
-
-//           {/* Review 2 */}
-//           <div className="bg-white p-5 sm:p-6 rounded-xl shadow text-left">
-//             <div className="text-yellow-500 mb-2">⭐⭐⭐⭐⭐</div>
-//             <p className="text-gray-700 text-sm sm:text-base">
-//               The doctor listens patiently and explains everything clearly.
-//               My PCOD symptoms have improved naturally.
-//             </p>
-//             <p className="mt-4 font-semibold text-sm text-gray-800">
-//               — Neha Sharma, Lucknow
-//             </p>
-//           </div>
-
-//           {/* Review 3 */}
-//           <div className="bg-white p-5 sm:p-6 rounded-xl shadow text-left">
-//             <div className="text-yellow-500 mb-2">⭐⭐⭐⭐⭐</div>
-//             <p className="text-gray-700 text-sm sm:text-base">
-//               Excellent Panchkarma therapy. Clean clinic, caring staff,
-//               and very effective treatment results.
-//             </p>
-//             <p className="mt-4 font-semibold text-sm text-gray-800">
-//               — Amit Mishra, Unnao
-//             </p>
-//           </div>
-
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
 import { useRef } from "react";
 
 export default function Reviews() {
@@ -70,21 +15,21 @@ export default function Reviews() {
   const reviews = [
     {
       name: "Harsh Singh",
-      image:"/src/assets/harsh.png",
+      image:"/images/harsh.png",
       place: "Kanpur",
       time: "11 months ago",
       text: "He is a very friendly doctor & one of the finest doctors I have seen.Best Ayurveda Doctor and helpful staffs 😊",
     },
     {
       name: "Shiv Prakash Shukla",
-      image:"/src/assets/shivprakashshukla.png",
+      image:"/images/shivprakashshukla.png",
       place: "Kanpur",
       time: "9 months ago",
       text: "Best panchkarma center and ayurveda hospital. Ever seen. I have personally visited this hospital for my treatment and found very good results.",
     },
     {
       name: "Shailendra Kumar",
-      image:"/src/assets/shailendrakumar.png",
+      image:"/images/shailendrakumar.png",
       place: "Rura",
       time: "9 months ago",
       text: "Best ayurveda and panchkarma center, main rura se aaya tha Kanpur appointment lene or mera bhut acha treatment hua or ab mai bilkul theek hu",
@@ -92,7 +37,7 @@ export default function Reviews() {
     ,
     {
       name: "Akhilesh Sahu",
-      image:"/src/assets/akhileshsahu.png",
+      image:"/images/akhileshsahu.png",
       place: "Kanpur",
       time: "2 years ago",
       text: "Best ayurvedic doctor in /kanpur. Very polite and humble behaviour with patients. I highly recommend Dr. R.K Pal for ayurvedic treatment.",
@@ -151,7 +96,7 @@ export default function Reviews() {
 
                 {/* Google Logo */}
                 <img
-                  src="/src/assets/google.png"
+                  src="/images/google.png"
                   alt="Google"
                   className="w-5 h-5"
                 />
